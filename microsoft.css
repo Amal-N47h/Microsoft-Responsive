@@ -1,0 +1,140 @@
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 13px !important;
+}
+.nav-link:active{
+    border: 1px dashed !important;
+    border-radius: 0% !important;
+}
+.navbutton{
+    background-color: transparent;
+    border: 1px solid !important;
+}
+.drop-tog{
+    background-color: transparent !important;
+    padding: 13px 0px !important;
+    border: none !important;
+    font-size: 13px !important;
+}
+.drop-tog:active{
+    border: 1px dashed !important;
+    border-radius: 0% !important;
+}
+.drop-tog:hover{
+    text-decoration: underline;
+}
+.dropnav table{
+    width: 80vw;
+    height: 30vw;
+    background-color: azure !important;
+    font-size: 13px;
+}
+.dropnav table tbody tr a{
+    text-decoration: none !important;
+}
+.car-cap1{
+    width: 420px;
+    text-align: start !important;
+    margin-left: 45vw;
+    margin-bottom: 6.7vw;
+}
+.car-cap2{
+    width: 420px;
+    text-align: start !important;
+    margin-bottom: 5vw;
+}
+.col-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+.col-div img{
+    width: 40px;
+    padding-top: 50px !important;
+}
+.col-div a{
+    padding-top: 10px !important;
+}
+.centre-image{
+    position: relative;
+}
+.centre-text{
+    width: 27rem;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+}
+.centre-text2{
+    position: absolute;
+    top: 56vw;
+}
+.icon-col{
+    display: flex;
+    align-items: center;
+}
+.icon-col img{
+    margin-left: 20px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.footer-list ul li{
+    font-size: 11px;
+    margin-top: 1rem;
+}
+.foot-text p{
+    font-size: 11px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.support-button{
+    border: 1px solid !important;
+    font-size: 13px !important;
+}
+.bar-support{
+    font-size: 25px;
+}
+.support-bar a{
+    font-size: 18px !important;
+}
+.cont1-text{
+    width: 100px;
+    height: 35px;
+    border-style: none;
+    border: 1px solid #fff;
+}
+.cont2-text{
+    font-size: 15px;
+}
+.support-center{
+    background-color: #0067b8;
+}
+#enquiry{
+    width: 20vw;
+    height: 10vw;
+    text-align: start;
+}
+@media screen and (max-width: 1300px) {
+    .centre-text h1{
+        font-size: 2rem;
+    }
+    .centre-text{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .middle-div{
+        margin-top: 15rem;
+    }
+}
+@media screen and (max-width: 386px) {
+    .middle-div{
+        margin-top: 20rem;
+    }
+}
